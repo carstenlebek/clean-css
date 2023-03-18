@@ -4,6 +4,7 @@ var path = require('path');
 var fs = require('fs');
 var CleanCSS = require('../index');
 var SourceMapGenerator = require('source-map').SourceMapGenerator;
+var process = require('process');
 
 function sourcesAsHash(sources, resolve) {
   var inputHash = {};

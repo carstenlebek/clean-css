@@ -9,6 +9,7 @@ var nock = require('nock');
 var url = require('url');
 var path = require('path');
 var CleanCSS = require('../index');
+var process = require('process');
 
 var port = 24682;
 

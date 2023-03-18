@@ -1,4 +1,5 @@
 var CleanCSS = require('../index');
+var process = require('process');
 
 var input = '@import url(test/fixtures/bench/complex.css);';
 var total;

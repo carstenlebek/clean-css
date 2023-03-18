@@ -30,6 +30,7 @@
     "test": "vows"
   },
   "dependencies": {
+    "process": "^0.11.10",
     "source-map": "~0.6.0"
   },
   "devDependencies": {
